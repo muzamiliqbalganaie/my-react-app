@@ -1,0 +1,73 @@
+[debug] [2024-04-11T09:01:12.438Z] ----------------------------------------------------------------------
+[debug] [2024-04-11T09:01:12.440Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MUZAMIL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-11T09:01:12.441Z] CLI Version:   13.6.0
+[debug] [2024-04-11T09:01:12.441Z] Platform:      win32
+[debug] [2024-04-11T09:01:12.441Z] Node Version:  v18.13.0
+[debug] [2024-04-11T09:01:12.446Z] Time:          Thu Apr 11 2024 14:31:12 GMT+0530 (India Standard Time)
+[debug] [2024-04-11T09:01:12.446Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-11T09:01:12.450Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-04-11T09:01:12.560Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-11T09:01:12.560Z] > authorizing via signed-in user (muzamilmig@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\MUZAMIL\my-react-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2024-04-11T09:01:13.441Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-04-11T09:01:13.442Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-11T09:01:39.077Z] Using project from CLI flag: fir-and-react-b5018
+[debug] [2024-04-11T09:01:39.078Z] > refreshing access token with scopes: []
+[debug] [2024-04-11T09:01:39.079Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-11T09:01:39.080Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-11T09:01:39.472Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-11T09:01:39.473Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-11T09:01:39.495Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018 [none]
+[debug] [2024-04-11T09:01:40.090Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018 200
+[debug] [2024-04-11T09:01:40.091Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018 {"projectId":"fir-and-react-b5018","projectNumber":"581833998124","displayName":"firebaseand react","name":"projects/fir-and-react-b5018","resources":{"hostingSite":"fir-and-react-b5018","realtimeDatabaseInstance":"fir-and-react-b5018-default-rtdb","storageBucket":"fir-and-react-b5018.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_8510a894-5d43-480d-a804-566e3f84156f"}
+[info] i  Using project fir-and-react-b5018 (firebaseand react) 
+[info] 
+=== Functions Setup
+[debug] [2024-04-11T09:01:40.110Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-11T09:01:40.110Z] > authorizing via signed-in user (muzamilmig@gmail.com)
+[debug] [2024-04-11T09:01:40.111Z] [iam] checking project fir-and-react-b5018 for permissions ["firebase.projects.get"]
+[debug] [2024-04-11T09:01:40.113Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-and-react-b5018:testIamPermissions [none]
+[debug] [2024-04-11T09:01:40.113Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-and-react-b5018:testIamPermissions x-goog-quota-user=projects/fir-and-react-b5018
+[debug] [2024-04-11T09:01:40.113Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-and-react-b5018:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-04-11T09:01:42.733Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-and-react-b5018:testIamPermissions 200
+[debug] [2024-04-11T09:01:42.733Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-and-react-b5018:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-04-11T09:01:42.735Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fir-and-react-b5018/services/cloudfunctions.googleapis.com [none]
+[debug] [2024-04-11T09:01:42.735Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fir-and-react-b5018/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/fir-and-react-b5018
+[debug] [2024-04-11T09:01:42.739Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/fir-and-react-b5018/services/runtimeconfig.googleapis.com [none]
+[debug] [2024-04-11T09:01:42.739Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/fir-and-react-b5018/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/fir-and-react-b5018
+[debug] [2024-04-11T09:01:46.015Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fir-and-react-b5018/services/runtimeconfig.googleapis.com 200
+[debug] [2024-04-11T09:01:46.015Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fir-and-react-b5018/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2024-04-11T09:01:46.021Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/fir-and-react-b5018/services/cloudfunctions.googleapis.com 200
+[debug] [2024-04-11T09:01:46.021Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/fir-and-react-b5018/services/cloudfunctions.googleapis.com [omitted]
+[info] 
+Detected existing codebase(s): default
+
+[info] 
+Overwriting codebase default...
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/.eslintrc.js 
+[info] +  Wrote functions/index.js 
+[info] +  Wrote functions/.gitignore 

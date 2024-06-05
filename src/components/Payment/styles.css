@@ -1,0 +1,37 @@
+/* .payment{
+    
+} */
+
+.payment_container{
+    text-align: center;
+    padding:10px;
+    padding-left: 254px;
+    font-weight: 400;
+    
+    border-bottom: 1px solid lightgray;
+    text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+    .payment_container {
+      padding-left: 0; /* Remove left padding */
+    }
+  }
+
+.payment_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment_title {
+    flex: 0.2;
+}
+
+.payment_address, .payment_items, .payment_details,.payment_priceContainer {
+    flex: 0.8;
+    
+}

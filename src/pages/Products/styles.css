@@ -1,0 +1,16 @@
+.products-body{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 199px;
+    /* padding-top: 50px; */
+    
+    
+}
+@media (max-width: 600px) {
+    .products-body {
+      padding-left: 0; /* Remove left padding */
+    }
+  }

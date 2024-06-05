@@ -1,0 +1,280 @@
+[debug] [2024-04-28T16:39:39.769Z] ----------------------------------------------------------------------
+[debug] [2024-04-28T16:39:39.772Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MUZAMIL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-28T16:39:39.773Z] CLI Version:   13.6.0
+[debug] [2024-04-28T16:39:39.773Z] Platform:      win32
+[debug] [2024-04-28T16:39:39.774Z] Node Version:  v18.13.0
+[debug] [2024-04-28T16:39:39.775Z] Time:          Sun Apr 28 2024 22:09:39 GMT+0530 (India Standard Time)
+[debug] [2024-04-28T16:39:39.775Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-28T16:39:39.941Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-28T16:39:39.942Z] > authorizing via signed-in user (muzamilmig@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2024-04-28T16:39:39.960Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-28T16:39:39.961Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2024-04-28T16:39:39.963Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-04-28T16:39:39.977Z] [hub] writing locator at C:\Users\MUZAMIL\AppData\Local\Temp\hub-fir-and-react-b5018.json
+[debug] [2024-04-28T16:39:40.006Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-28T16:39:40.006Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-28T16:39:40.006Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2024-04-28T16:39:40.013Z] defaultcredentials: writing to file C:\Users\MUZAMIL\AppData\Roaming\firebase\muzamilmig_gmail_com_application_default_credentials.json
+[debug] [2024-04-28T16:39:40.032Z] Setting GAC to C:\Users\MUZAMIL\AppData\Roaming\firebase\muzamilmig_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\MUZAMIL\\AppData\\Roaming\\firebase\\muzamilmig_gmail_com_application_default_credentials.json"}}
+[debug] [2024-04-28T16:39:40.036Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018/adminSdkConfig [none]
+[debug] [2024-04-28T16:39:41.391Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018/adminSdkConfig 200
+[debug] [2024-04-28T16:39:41.391Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018/adminSdkConfig {"projectId":"fir-and-react-b5018","databaseURL":"https://fir-and-react-b5018-default-rtdb.firebaseio.com","storageBucket":"fir-and-react-b5018.appspot.com","locationId":"us-central"}
+[debug] [2024-04-28T16:39:41.410Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-and-react-b5018/sites 
+[debug] [2024-04-28T16:39:42.723Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-and-react-b5018/sites 200
+[debug] [2024-04-28T16:39:42.723Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-and-react-b5018/sites {"sites":[{"name":"projects/fir-and-react-b5018/sites/fir-and-react-b5018","defaultUrl":"https://fir-and-react-b5018.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-04-28T16:39:42.724Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018/webApps/-/config [none]
+[debug] [2024-04-28T16:39:44.776Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018/webApps/-/config 200
+[debug] [2024-04-28T16:39:44.776Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018/webApps/-/config {"projectId":"fir-and-react-b5018","appId":"1:581833998124:web:df262a7668ae0899e5b689","databaseURL":"https://fir-and-react-b5018-default-rtdb.firebaseio.com","storageBucket":"fir-and-react-b5018.appspot.com","locationId":"us-central","apiKey":"AIzaSyD7qZnVjy8vmwlPUUxtQvHdCfv3YBHwcTo","authDomain":"fir-and-react-b5018.firebaseapp.com","messagingSenderId":"581833998124","measurementId":"G-57VDKCK283"}
+[debug] [2024-04-28T16:39:44.794Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018 [none]
+[debug] [2024-04-28T16:39:45.388Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018 200
+[debug] [2024-04-28T16:39:45.388Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-and-react-b5018 {"projectId":"fir-and-react-b5018","projectNumber":"581833998124","displayName":"firebaseand react","name":"projects/fir-and-react-b5018","resources":{"hostingSite":"fir-and-react-b5018","realtimeDatabaseInstance":"fir-and-react-b5018-default-rtdb","storageBucket":"fir-and-react-b5018.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_8510a894-5d43-480d-a804-566e3f84156f"}
+[info] i  hosting[fir-and-react-b5018]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[fir-and-react-b5018]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-04-28T16:39:45.454Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-04-28T16:39:45.455Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-04-28T16:39:45.456Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\MUZAMIL\\.cache\\firebase\\emulators\\ui-v1.11.8\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\MUZAMIL\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.8\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-04-28T16:39:45.781Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2024-04-28T16:39:45.782Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] i  functions: Watching "C:\Users\MUZAMIL\my-react-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\MUZAMIL\\my-react-app\\functions\" for Cloud Functions..."}}
+[debug] [2024-04-28T16:39:46.036Z] Validating nodejs source
+[debug] [2024-04-28T16:39:48.358Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "functions": "^1.0.9",
+    "stripe": "^15.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-04-28T16:39:48.359Z] Building nodejs source
+[debug] [2024-04-28T16:39:48.360Z] Failed to find version of module node: reached end of search path C:\Users\MUZAMIL\my-react-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-04-28T16:39:48.364Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-04-28T16:39:48.380Z] Found firebase-functions binary at 'C:\Users\MUZAMIL\my-react-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8231
+
+[error] TypeError: Cannot read properties of undefined (reading 'origin')
+    at C:\Users\MUZAMIL\my-react-app\functions\node_modules\cors\lib\index.js:219:40
+    at optionsCallback (C:\Users\MUZAMIL\my-react-app\functions\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\MUZAMIL\my-react-app\functions\node_modules\cors\lib\index.js:204:7)
+    at Object.<anonymous> (C:\Users\MUZAMIL\my-react-app\functions\index.js:8:9)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+
+[debug] [2024-04-28T16:39:48.888Z] Got response code 400; body Failed to generate manifest from function source: TypeError: Cannot read properties of undefined (reading 'origin')
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4001/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-04-28T16:40:45.712Z] File C:\Users\MUZAMIL\my-react-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\MUZAMIL\\my-react-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-04-28T16:40:46.718Z] Validating nodejs source
+[debug] [2024-04-28T16:40:50.399Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "functions": "^1.0.9",
+    "stripe": "^15.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-04-28T16:40:50.400Z] Building nodejs source
+[debug] [2024-04-28T16:40:50.401Z] Failed to find version of module node: reached end of search path C:\Users\MUZAMIL\my-react-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-04-28T16:40:50.404Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-04-28T16:40:50.457Z] Found firebase-functions binary at 'C:\Users\MUZAMIL\my-react-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8817
+
+[error] TypeError: Cannot read properties of undefined (reading 'origin')
+    at C:\Users\MUZAMIL\my-react-app\functions\node_modules\cors\lib\index.js:219:40
+    at optionsCallback (C:\Users\MUZAMIL\my-react-app\functions\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\MUZAMIL\my-react-app\functions\node_modules\cors\lib\index.js:204:7)
+    at Object.<anonymous> (C:\Users\MUZAMIL\my-react-app\functions\index.js:8:9)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+
+[debug] [2024-04-28T16:40:52.595Z] Got response code 400; body Failed to generate manifest from function source: TypeError: Cannot read properties of undefined (reading 'origin')
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2024-04-28T16:40:57.870Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:40:57.870Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:40:57.871Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:40:57.870Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:40:57.874Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:40:57.877Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:40:57.877Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:40:57.877Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:40:57.877Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:40:57.878Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:33 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:33 +0000] \"GET / HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:33 +0000] "GET /static/css/main.31d7c218.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:33 +0000] \"GET /static/css/main.31d7c218.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:33 +0000] "GET /static/js/main.ce1d1b51.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:33 +0000] \"GET /static/js/main.ce1d1b51.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:34 +0000] "GET /categories.json HTTP/1.1" 200 729 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:34 +0000] \"GET /categories.json HTTP/1.1\" 200 729 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:35 +0000] "GET /manifest.json HTTP/1.1" 200 492 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:35 +0000] \"GET /manifest.json HTTP/1.1\" 200 492 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:36 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:36 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:36 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:36 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] "GET /home.json HTTP/1.1" 200 - "http://127.0.0.1:5000/Home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] \"GET /home.json HTTP/1.1\" 200 - \"http://127.0.0.1:5000/Home\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] "GET /images/03.jpg HTTP/1.1" 200 989268 "http://127.0.0.1:5000/Home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] \"GET /images/03.jpg HTTP/1.1\" 200 989268 \"http://127.0.0.1:5000/Home\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] "GET /images/06.jpg HTTP/1.1" 200 1258633 "http://127.0.0.1:5000/Home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] \"GET /images/06.jpg HTTP/1.1\" 200 1258633 \"http://127.0.0.1:5000/Home\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] "GET /images/01.jpg HTTP/1.1" 200 1652061 "http://127.0.0.1:5000/Home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] \"GET /images/01.jpg HTTP/1.1\" 200 1652061 \"http://127.0.0.1:5000/Home\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] "GET /images/02.jpg HTTP/1.1" 200 1636071 "http://127.0.0.1:5000/Home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] \"GET /images/02.jpg HTTP/1.1\" 200 1636071 \"http://127.0.0.1:5000/Home\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] "GET /images/04.jpg HTTP/1.1" 200 1824903 "http://127.0.0.1:5000/Home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] \"GET /images/04.jpg HTTP/1.1\" 200 1824903 \"http://127.0.0.1:5000/Home\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] "GET /images/05.jpg HTTP/1.1" 200 2833697 "http://127.0.0.1:5000/Home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:41 +0000] \"GET /images/05.jpg HTTP/1.1\" 200 2833697 \"http://127.0.0.1:5000/Home\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:41:43 +0000] "GET /static/media/01.2459a0276cae15c3084b.jpg HTTP/1.1" 200 1652061 "http://127.0.0.1:5000/Home/1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:41:43 +0000] \"GET /static/media/01.2459a0276cae15c3084b.jpg HTTP/1.1\" 200 1652061 \"http://127.0.0.1:5000/Home/1\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[debug] [2024-04-28T16:41:50.087Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:41:50.087Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:41:50.088Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:41:50.087Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:41:50.091Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] "GET /clothes.json HTTP/1.1" 200 907 "http://127.0.0.1:5000/Clothes" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] \"GET /clothes.json HTTP/1.1\" 200 907 \"http://127.0.0.1:5000/Clothes\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] "GET /images/08.jpg HTTP/1.1" 200 453569 "http://127.0.0.1:5000/Clothes" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] \"GET /images/08.jpg HTTP/1.1\" 200 453569 \"http://127.0.0.1:5000/Clothes\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] "GET /images/10.jpg HTTP/1.1" 200 569434 "http://127.0.0.1:5000/Clothes" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] \"GET /images/10.jpg HTTP/1.1\" 200 569434 \"http://127.0.0.1:5000/Clothes\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] "GET /images/09.jpg HTTP/1.1" 200 641543 "http://127.0.0.1:5000/Clothes" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] \"GET /images/09.jpg HTTP/1.1\" 200 641543 \"http://127.0.0.1:5000/Clothes\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] "GET /images/11.jpg HTTP/1.1" 200 2350699 "http://127.0.0.1:5000/Clothes" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] \"GET /images/11.jpg HTTP/1.1\" 200 2350699 \"http://127.0.0.1:5000/Clothes\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] "GET /images/07.jpg HTTP/1.1" 200 2810136 "http://127.0.0.1:5000/Clothes" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:42:46 +0000] \"GET /images/07.jpg HTTP/1.1\" 200 2810136 \"http://127.0.0.1:5000/Clothes\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[debug] [2024-04-28T16:43:50.347Z] File C:\Users\MUZAMIL\my-react-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\MUZAMIL\\my-react-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2024-04-28T16:43:51.364Z] Validating nodejs source
+[debug] [2024-04-28T16:43:53.667Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "functions": "^1.0.9",
+    "stripe": "^15.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-04-28T16:43:53.669Z] Building nodejs source
+[debug] [2024-04-28T16:43:53.671Z] Failed to find version of module node: reached end of search path C:\Users\MUZAMIL\my-react-app\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-04-28T16:43:53.683Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-04-28T16:43:53.740Z] Found firebase-functions binary at 'C:\Users\MUZAMIL\my-react-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8041
+
+[error] TypeError: Cannot read properties of undefined (reading 'origin')
+    at C:\Users\MUZAMIL\my-react-app\functions\node_modules\cors\lib\index.js:219:40
+    at optionsCallback (C:\Users\MUZAMIL\my-react-app\functions\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\MUZAMIL\my-react-app\functions\node_modules\cors\lib\index.js:204:7)
+    at Object.<anonymous> (C:\Users\MUZAMIL\my-react-app\functions\index.js:8:9)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+
+[debug] [2024-04-28T16:43:55.364Z] Got response code 400; body Failed to generate manifest from function source: TypeError: Cannot read properties of undefined (reading 'origin')
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2024-04-28T16:44:13.405Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:44:13.405Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:44:13.406Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:44:13.405Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:44:13.408Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:44:13.412Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:44:13.412Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:44:13.412Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:44:13.412Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:44:13.415Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:44:23 +0000] "GET /static/css/main.31d7c218.css.map HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:44:23 +0000] \"GET /static/css/main.31d7c218.css.map HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:44:24 +0000] "GET /favicon.ico HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:44:24 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:44:24 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:44:24 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:44:24 +0000] "GET /logo512.png HTTP/1.1" 200 9664 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:44:24 +0000] \"GET /logo512.png HTTP/1.1\" 200 9664 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[info] i  hosting: 127.0.0.1 - - [28/Apr/2024:16:44:24 +0000] "GET /static/js/main.ce1d1b51.js.map HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [28/Apr/2024:16:44:24 +0000] \"GET /static/js/main.ce1d1b51.js.map HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
+[debug] [2024-04-28T16:48:58.881Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:48:58.881Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:48:58.882Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:48:58.881Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:48:58.883Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:48:58.886Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:48:58.886Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:48:58.887Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:48:58.886Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:48:58.889Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:50:05.922Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:50:05.922Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:50:05.923Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:50:05.922Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:50:05.924Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:50:47.915Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:50:47.915Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:50:47.916Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:50:47.915Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:50:47.918Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:52:18.698Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:52:18.698Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:52:18.699Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:52:18.698Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:52:18.700Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:52:18.701Z] [work-queue] {"queuedWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:52:18.701Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-04-28T16:52:18.702Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-and-react-b5018/us-central1/api/Payment/Create-2024-04-28T16:52:18.701Z"],"workRunningCount":1}
+[debug] [2024-04-28T16:52:18.703Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}

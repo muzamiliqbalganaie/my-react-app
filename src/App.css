@@ -1,0 +1,14 @@
+:root {
+    --base-font-size: 16px;
+}
+
+.dark-theme {
+    background-color: black;
+    color: white;
+    
+}
+
+.light-theme {
+    background-color: white;
+    color: rgb(53, 49, 49);
+}

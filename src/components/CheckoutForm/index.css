@@ -1,0 +1,15 @@
+#payment-form{
+    text-align: center;
+    padding:10px;
+    padding-left: 254px;
+    font-weight: 400;
+    
+    border-bottom: 1px solid lightgray;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .payment-form {
+      padding-left: 0; /* Remove left padding */
+    }
+  }

@@ -1,0 +1,6 @@
+.MyCartProduct{
+    display: flex;
+} 
+.MyCartProduct__image{
+    width: min-content;
+}

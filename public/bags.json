@@ -1,0 +1,55 @@
+[
+    {
+        "id":1,
+        "bagName":"Bag 1",
+        "bagDescription":"General bag",
+        "visible": true,
+        "logo":"./images/12.jpg"
+    },
+     
+     {
+        "id":2,
+        "bagName":"Bag 2",
+        "bagDescription":"General bag",
+        "visible": true,
+        "logo":"./images/13.jpg"
+    },
+     {
+        "id":3,
+        "bagName":"Bag 3",
+        "bagDescription":"General bag",
+        "visible": true,
+        "logo":"./images/14.jpg"
+    },
+     {
+       "id":4,
+        "bagName":"Bag 4",
+        "bagDescription":"General bag",
+        "visible": true,
+        "logo":"./images/15.jpg"
+    } ,
+    {
+        "id":5,
+         "bagName":"Bag 5",
+         "bagDescription":"General bag",
+         "visible": true,
+         "logo":"./images/16.jpg"
+     },
+     {
+         "id":6,
+          "bagName":"Bag 6",
+          "bagDescription":"General bag",
+          "visible": true,
+          "logo":"./images/17.jpg"
+      } 
+      ,
+      {
+          "id":7,
+           "bagName":"Bag 7",
+           "bagDescription":"General bag",
+           "visible": true,
+           "logo":"./images/17.jpg"
+       } 
+  
+
+] 

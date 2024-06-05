@@ -1,0 +1,14 @@
+.shoes-body{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 19px;
+    padding-left: 199px;
+    
+}
+@media (max-width: 600px) {
+    .shoes-body{
+      padding-left: 0; /* Remove left padding */
+    }
+  }

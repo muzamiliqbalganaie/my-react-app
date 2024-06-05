@@ -1,0 +1,43 @@
+[
+    {
+        "ProductId":1,
+        "ProductName":"Red Tape Cap",
+        "ProductDescription":"BAseball Style Cap,Athetlic Style,Summer Wear",
+        "visible": true,
+        "ProductImage": "01.png",
+        "ProductPrice":"RS:700"
+    },
+     {
+        "ProductId":2,
+        "ProductName":"Levi's Jet black Jeans",
+        "ProductDescription":"Stylish Denim ,High Quality,Breathable Fabric",
+        "visible": true,
+        "ProductImage": "02.png",
+        "ProductPrice":"Rs:3000"
+    },
+     {
+        "ProductId":3,
+        "ProductName":"NIke Jordan Shoe",
+        "ProductDescription":"General Category",
+        "visible": true,
+        "ProductImage": "03.png",
+        "ProductPrice":"Rs:4000"
+    },
+     {
+        "ProductId":4,
+        "ProductName":"GUCCi BAG",
+        "ProductDescription":"General Category",
+        "visible": true,
+        "ProductImage": "04.png",
+        "ProductPrice":"Rs:30000"
+    },
+    {
+        "ProductId":5,
+        "ProductName":"NIke Air Force 3",
+        "ProductDescription":"General Category",
+        "visible": true,
+        "ProductImage": "05.png",
+        "ProductPrice":"Rs:10000"
+    }
+
+] 
